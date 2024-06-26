@@ -1,0 +1,232 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #363636;
+}
+
+p {
+    line-height: 190%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(3, 31, 0);
+}
+
+/*********** MENU ************/
+
+#menu{
+    background-color: #04701b;
+    height: 100px;
+}
+
+
+#menu a{
+    display: inline-block;
+    width: 27.1%;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 100px;
+    color: #ffffff;
+    
+    text-align: center;
+    padding: 0 40px;
+    border: none;
+    
+}
+
+#menu a:hover{
+    background-color: #43c46e;
+}
+
+
+
+
+/*************** HEADER *******************/
+
+#header {
+    text-align: center;
+    background-color: #2ba846;
+    padding: 20px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+/***************** CONTENT ********************/
+
+#content {
+    padding: 30px;
+    float: left;
+    width: 70%;
+    background-color: white;
+}
+
+/**************** SIDE-BAR ***********************/
+
+#sidebar {
+    float: right;
+    width: 20%;
+    margin-top: 35px;
+}
+
+#sidebar li {
+    padding: 10px;
+}
+
+
+
+/********************** FOOTER *******************/
+
+#footer {
+    background-color: rgb(47, 54, 49);
+    color: white;
+    padding: 14px;
+    width: 100%;
+    height: 340px;
+    clear: both;
+}
+
+
+#footer a {
+    color: white;
+
+}
+
+#footer a.hover {
+    color: rgba(255, 255, 255, 0.596);
+    font-weight: 400;
+}
+
+#footer li {
+    padding: 10px;
+}
+
+#box1 {
+    float: left;
+    width: 29.1%;
+    padding-right: 30px;
+}
+
+#box2 {
+    float: left;
+    width: 29.1%;
+    padding-right: 30px;
+}
+
+#box3 {
+    float: right;
+    width: 29.1%;
+    padding-left: 30px;
+}
+
+/******************* COPYRIGHT ************************/
+
+#copyright {
+    text-align: center;
+    background-color: #01350c;
+    color: rgb(105, 160, 112);
+    height: 100px;
+    padding: 50PX;
+}
+
+
+/*********** CONTACT ************/
+
+#contact {
+    padding: 70px;
+}
+
+
+/***************** GALLERY *******************/
+
+#gallery img{
+	width:110px;
+    height: 100px;
+	margin:12px;
+	-moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#gallery img:hover{
+	-moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+ }
+
+ #gallery {
+    width: 65%;
+    padding: 50px;
+    float: right;
+}
+
+
+/***************** VEHICLE *******************/
+
+#colours img {
+    width: 40px;
+    height: 40px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#colours img:hover{
+	-moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+ }
+
+#vehicle img{
+    width: 400px;
+    height: 326px;
+    padding: 10px 10px 10px 10px;
+}
+
+#vehicle a {
+    float: right;
+    padding: 10px;
+}
+
+.arrow {
+    float: left;
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
